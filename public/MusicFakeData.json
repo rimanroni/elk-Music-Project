@@ -1,0 +1,112 @@
+  [
+      {
+        "id": 1,
+        "img" : "https://i.ibb.co/YNdyWNg/pop.png",
+        "category": "Pop",
+        "top_artist": "Lily Sparks",
+        "top_song": "Starlight",
+        "top_album": "Euphoria",
+        "monthly_streams": 10000000,
+        "event_cost": "$50",
+        "description": "Experience the vibrant world of pop music with catchy melodies and infectious beats. Join us for an electrifying night of music that will leave you wanting more. Don't miss out on this unforgettable event!",
+        "event_title": "Pop Music Extravaganza",
+        "event_date": "2024-07-15",
+        "contact": {
+          "email": "info@popmusicextravaganza.com",
+          "phone": "+1 (555) 123-4567",
+          "website": "https://www.popmusicextravaganza.com"
+        }
+      },
+      {
+        "id": 2,
+        "img" : "https://i.ibb.co/H2dzvz7/rock.jpg",
+        "category": "Rock",
+        "top_artist": "Midnight Riders",
+        "top_song": "Thunder Road",
+        "top_album": "Rebel Hearts",
+        "monthly_streams": 8500000,
+        "event_cost": "$60",
+        "description": "Rock out to electrifying performances and powerful guitar riffs. Join us for a night of pure energy and passion as we celebrate the timeless allure of rock music. Get ready to rock your socks off!",
+        "event_title": "Rock Revolution",
+        "event_date": "2024-08-20",
+        "contact": {
+          "email": "info@rockrevolution.com",
+          "phone": "+1 (555) 123-4568",
+          "website": "https://www.rockrevolution.com"
+        }
+      },
+      {
+        "id": 3,
+        "img" : "https://i.ibb.co/1nZ076r/hiphop.jpg",
+        "category": "Hip Hop/Rap",
+        "top_artist": "MC Flow",
+        "top_song": "City Lights",
+        "top_album": "Urban Vibes",
+        "monthly_streams": 12000000,
+        "event_cost": "$55",
+        "description": "Dive into the world of hip hop and rap with captivating lyrics and beats. Get ready for an unforgettable experience that will keep you moving all night long. Don't miss the hottest hip hop event of the year!",
+        "event_title": "Hip Hop Heat",
+        "event_date": "2024-09-10",
+        "contact": {
+          "email": "info@hiphopheat.com",
+          "phone": "+1 (555) 123-4569",
+          "website": "https://www.hiphopheat.com"
+        }
+      },
+      {
+        "id": 4,
+        "img" : "https://i.ibb.co/kqsjyY5/download.jpg",
+        "category": "Electronic/Dance",
+        "top_artist": "DJ Pulse",
+        "top_song": "Electric Dreams",
+        "top_album": "Synthwave Symphony",
+        "monthly_streams": 15000000,
+        "event_cost": "$65",
+        "description": "Get ready to dance all night with pulsating electronic beats and mesmerizing visuals. Join us for a euphoric journey through the world of electronic music. It's time to let loose and dance!",
+        "event_title": "Electric Dance Festival",
+        "event_date": "2024-10-05",
+        "contact": {
+          "email": "info@electricdancefestival.com",
+          "phone": "+1 (555) 123-4570",
+          "website": "https://www.electricdancefestival.com"
+        }
+      },
+      {
+        "id": 5,
+        "img" : "https://i.ibb.co/7kTT7kY/r.png",
+        "category": "R&B/Soul",
+        "top_artist": "Velvet Soul",
+        "top_song": "Midnight Serenade",
+        "top_album": "Soulful Reflections",
+        "monthly_streams": 9000000,
+        "event_cost": "$55",
+        "description": "Feel the soulful melodies and smooth rhythms of R&B music. Immerse yourself in an intimate evening of soulful serenades and heartfelt performances. It's a night you won't want to miss!",
+        "event_title": "Soulful Serenade",
+        "event_date": "2024-11-15",
+        "contact": {
+          "email": "info@soulfulserenade.com",
+          "phone": "+1 (555) 123-4571",
+          "website": "https://www.soulfulserenade.com"
+        }
+      },
+      {
+        "id": 6,
+        "img" : "https://i.ibb.co/TwWHSCM/country.jpg",
+        "category": "Country",
+        "top_artist": "Dusty Trails",
+        "top_song": "Backroads",
+        "top_album": "Heartland Stories",
+        "monthly_streams": 7000000,
+        "event_cost": "$60",
+        "description": "Experience the heart and soul of country music with tales of love, loss, and life. Join us for a nostalgic journey through the heartland of American music. Grab your boots and let's dance!",
+        "event_title": "Country Roads Concert",
+        "event_date": "2024-12-01",
+        "contact": {
+          "email": "info@countryroadsconcert.com",
+          "phone": "+1 (555) 123-4572",
+          "website": "https://www.countryroadsconcert.com"
+        }
+      }
+    ]
+ 
+  
