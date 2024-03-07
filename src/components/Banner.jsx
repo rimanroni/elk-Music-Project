@@ -18,7 +18,7 @@ const Banner = () => {
                </div>
             </div>
             <div data-aos="zoom-in-up">
-                <img src="1.jpg" className='rounded-lg' alt="" />
+                <img src="riman.png" className='rounded-lg bg-transparent' alt="" />
             </div>
             </div>
  

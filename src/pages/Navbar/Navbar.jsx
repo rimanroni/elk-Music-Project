@@ -12,7 +12,7 @@ const Navbar = () => {
              </div>
              <div className='text-white md:font-bold uppercase md:mt-0 mt-12   ml-4 md:ml-0 space-x-3'>
                 <NavLink className='hover:text-green-500' to={'/'}>Home</NavLink>
-                <NavLink className='hover:text-green-500' to={'/schedule'}>SCHEDULE</NavLink>
+                <NavLink className='hover:text-green-500' to={'/SCHEDULE'}>SCHEDULE</NavLink>
                 <NavLink className='hover:text-green-500' to={'/blog'}>BLOG</NavLink>
                 <NavLink className='hover:text-green-500' to={'/contact'}>CONTACT</NavLink>
                 <NavLink  className='hover:text-green-500' to={'/event'}>Event</NavLink>

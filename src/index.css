@@ -5,6 +5,7 @@ body{
 }
 nav a.active{
   color: rgb(156, 233, 14);
+   
 }
 #banner{
   
@@ -12,11 +13,17 @@ nav a.active{
      background-size: cover;
     background-repeat: no-repeat;
     color: white;
- 
-}
+ }
 #bannerCategori{
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+}
+
+.time{
+    background:linear-gradient(0deg, rgba(22, 21, 22, 0.87), rgba(15, 2, 10, 0.3)), url('/t2.png'); ;
+  background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 @tailwind base;
 @tailwind components;
