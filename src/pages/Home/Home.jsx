@@ -6,6 +6,7 @@ import HeroArea from '../../components/HeroArea';
 import Sedule from '../../components/Sedule';
 import SeduleSlider from '../../components/SeduleSlider';
 import { Helmet } from 'react-helmet';
+import Footer from '../../components/Footer';
   
 const Home = () => {
  
@@ -19,7 +20,7 @@ const Home = () => {
              <HeroArea/>
              <EventCategory/>
              <SeduleSlider/>
-             
+             <Footer/>
               
         </div>
     );
