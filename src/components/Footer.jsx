@@ -16,7 +16,7 @@ const Footer = () => {
                            
                         </a>
                     </div>
-                    <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+                    <div className="grid grid-cols-2 lg:px-4 px-8 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
                         <div className="space-y-3">
                             <h3 className="tracki uppercase dark:text-gray-50">Product</h3>
                             <ul className="space-y-1">

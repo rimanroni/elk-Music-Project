@@ -12,9 +12,7 @@ const Home = () => {
  
     return (
         <div>
-            <Helmet>
-                <title>this is home bar</title>
-            </Helmet>
+           
             <Navbar/>
              <Banner/> 
              <HeroArea/>

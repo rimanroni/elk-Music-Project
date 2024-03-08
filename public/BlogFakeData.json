@@ -1,0 +1,147 @@
+ [
+      {
+        "id": 1,
+        "category": "Pop",
+        "category_img": "https://i.ibb.co/9YjCpYX/b1.jpg",
+        "description": "Explore the latest news, trends, and updates in the world of pop music. From chart-topping hits to emerging artists, dive into the vibrant and dynamic pop music scene.",
+        "posts": [
+          {
+            "id": 1,
+            "title": "Top 10 Pop Songs of the Year",
+            "author": "MusicMaster",
+            "author_img": "musicmaster.jpg",
+            "date": "2024-03-01",
+            "content": "Discover the top pop songs that dominated the charts this year. From infectious hooks to catchy melodies, these tracks are sure to get you grooving."
+          },
+          {
+            "id": 2,
+            "title": "Interview with Pop Sensation Lily Sparks",
+            "author": "MusicReporter",
+            "author_img": "musicreporter.jpg",
+            "date": "2024-02-15",
+            "content": "Get an exclusive behind-the-scenes look into the life and career of pop sensation Lily Sparks. Learn about her inspirations, aspirations, and upcoming projects."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Rock",
+        "category_img": "https://i.ibb.co/B32wQCd/b2.png",
+        "description": "Stay updated with the latest news, reviews, and interviews from the world of rock music. From classic rock to alternative, explore the diverse landscape of rock 'n' roll.",
+        "posts": [
+          {
+            "id": 3,
+            "title": "The Evolution of Rock: From Elvis to Nirvana",
+            "author": "RockEnthusiast",
+            "author_img": "rockenthusiast.jpg",
+            "date": "2024-03-03",
+            "content": "Trace the evolution of rock music from its roots in the '50s to the groundbreaking bands of the '90s. Explore the cultural impact and musical innovations that shaped the genre."
+          },
+          {
+            "id": 4,
+            "title": "Interview with Rock Legend Midnight Riders",
+            "author": "RockReporter",
+            "author_img": "rockreporter.jpg",
+            "date": "2024-02-20",
+            "content": "Join us as we sit down with rock icon Midnight Riders to discuss their legendary career, memorable performances, and enduring influence on the rock music landscape."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Electronic/Dance",
+        "category_img": "https://i.ibb.co/BNjLmBt/b3.jpg",
+        "description": "Get the latest updates, releases, and event coverage from the electronic and dance music scene. From techno to EDM, immerse yourself in the pulsating beats and infectious rhythms.",
+        "posts": [
+          {
+            "id": 5,
+            "title": "The Rise of Electronic Music Festivals",
+            "author": "EDMInsider",
+            "author_img": "edminsider.jpg",
+            "date": "2024-03-05",
+            "content": "Explore the global phenomenon of electronic music festivals and their role in shaping the electronic dance music culture. From massive crowds to mind-blowing productions, experience the energy and excitement of these epic events."
+          },
+          {
+            "id": 6,
+            "title": "Interview with DJ Pulse: Behind the Decks",
+            "author": "DanceReporter",
+            "author_img": "dancereporter.jpg",
+            "date": "2024-02-25",
+            "content": "Go behind the decks with renowned DJ Pulse as he shares insights into his creative process, favorite tracks, and memorable moments from his electrifying performances."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "R&B/Soul",
+        "category_img": "https://i.ibb.co/f854nVd/b4.png",
+        "description": "Discover the soulful sounds and heartfelt stories of R&B and soul music. From timeless classics to contemporary hits, explore the emotional depth of this genre.",
+        "posts": [
+          {
+            "id": 7,
+            "title": "The Legacy of Motown: A Musical Revolution",
+            "author": "SoulHistorian",
+            "author_img": "soulhistorian.jpg",
+            "date": "2024-03-07",
+            "content": "Delve into the iconic legacy of Motown Records and its profound impact on the world of music. From groundbreaking artists to chart-topping hits, explore the enduring influence of this legendary label."
+          },
+          {
+            "id": 8,
+            "title": "Spotlight on Rising R&B Star Velvet Soul",
+            "author": "R&BReporter",
+            "author_img": "rbreporter.jpg",
+            "date": "2024-02-28",
+            "content": "Meet rising R&B sensation Velvet Soul as she discusses her journey in the music industry, personal inspirations, and upcoming projects that promise to captivate audiences worldwide."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "category": "Hip Hop/Rap",
+        "category_img": "https://i.ibb.co/4Phk4z3/b5.png",
+        "description": "Stay informed about the latest releases, collaborations, and news in the world of hip hop and rap. From underground mixtapes to mainstream hits, explore the culture and creativity of this genre.",
+        "posts": [
+          {
+            "id": 9,
+            "title": "Hip Hop Evolution: From Bronx Block Parties to Global Phenomenon",
+            "author": "HipHopAficionado",
+            "author_img": "hiphopaficionado.jpg",
+            "date": "2024-03-10",
+            "content": "Trace the evolution of hip hop music from its humble beginnings in the Bronx to its status as a global cultural phenomenon. Explore the social, political, and artistic significance of this influential genre."
+          },
+          {
+            "id": 10,
+            "title": "Interview with MC Flow: Breaking Barriers in Hip Hop",
+            "author": "RapReporter",
+            "author_img": "rapreporter.jpg",
+            "date": "2024-03-01",
+            "content": "Join us for an exclusive interview with hip hop trailblazer MC Flow as she discusses her groundbreaking contributions to the genre, empowering lyrics, and commitment to social change."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "category": "Country",
+        "category_img": "https://i.ibb.co/HYwLcDx/b6.png",
+        "description": "Explore the rich storytelling and traditional roots of country music. From honky-tonk anthems to heartfelt ballads, delve into the diverse sounds of country music.",
+        "posts": [
+          {
+            "id": 11,
+            "title": "The Heartland Chronicles: Country Music's Influence on American Culture",
+            "author": "CountryHistorian",
+            "author_img": "countryhistorian.jpg",
+            "date": "2024-03-12",
+            "content": "Take a journey through the heartland of America as we explore the cultural significance of country music. From tales of love and loss to reflections on rural life, discover the enduring appeal of this beloved genre."
+          },
+          {
+            "id": 12,
+            "title": "Spotlight on Country Crooner Dusty Trails",
+            "author": "CountryReporter",
+            "author_img": "countryreporter.jpg",
+            "date": "2024-03-03",
+            "content": "Meet country music sensation Dusty Trails as he shares stories from the road, personal anecdotes, and insights into his authentic approach to songwriting that resonates with audiences worldwide."
+          }
+        ]
+      }
+    ]
+   

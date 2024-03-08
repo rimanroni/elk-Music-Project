@@ -13,7 +13,7 @@ const MusicCard = ({ data }) => {
                     <div className="absolute space-y-2 bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
                         <h1 className="font-serif text-2xl font-bold text-white shadow-xl">{category}</h1>
                         <h1 className="text-sm font-light text-gray-200 shadow-xl">{top_artist}</h1>
-                        <h1 className="    shadow-xl text-rose-400 font-bold">{event_cost}</h1>
+                        <h1 className="    shadow-xl text-rose-400 font-bold">Ticket Price {event_cost}</h1>
                         <button class="relative  px-3 py-1 overflow-hidden border  border-white text-white shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-yellow-400  
                         hover:border-slate-600
                         before:duration-300 before:ease-out hover:text-white   hover:before:h-40 hover:before:w-40 hover:before:opacity-80">

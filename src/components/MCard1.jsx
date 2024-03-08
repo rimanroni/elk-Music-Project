@@ -1,8 +1,10 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const MCard1 = () => {
     return (
         <div className=' py-4'>
+            
             <h1 className='text-center text-4xl font-bold py-2 mb-4'>SCHEDULE MUSIC EVENT</h1>
             <div className='grid grid-cols-1 gap-3 px-4 lg:grid-cols-3'>
                 <div>
