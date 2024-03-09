@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useState } from 'react';
 export const MyContaxt = createContext(null )
-import {   createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import {   createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut ,GithubAuthProvider , GoogleAuthProvider, signInWithPopup} from "firebase/auth";
 import { auth } from '../firebaseCongig/firebase.config';
 const Contaxt = ({children}) => {
    const [user, setUser] = useState('')
@@ -22,7 +22,16 @@ const logOut = ()=>{
     setLoading(true)
    return signOut(auth) 
 }
-
+//  for google singup or log in
+const googleProvider = new GoogleAuthProvider()
+const forGoogle = () =>{
+   return signInWithPopup(auth, googleProvider)
+}
+// for githbu singup or login 
+const githubProvider = new GithubAuthProvider()
+const forGithub = () =>{
+    return signInWithPopup(auth, githubProvider)
+}
    useEffect(()=>{
            const unscrib = onAuthStateChanged(auth, currentUser=>{
             setUser(currentUser)
@@ -34,7 +43,7 @@ const logOut = ()=>{
    },[])
 
     
-    const AuthInfo = {user, logOut, loading  ,createUser,userLogin  }
+    const AuthInfo = {user,forGoogle, logOut, loading  ,createUser,userLogin , forGithub  }
     return (
         <MyContaxt.Provider value={AuthInfo}>
             {children } 

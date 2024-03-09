@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../pages/Navbar/Navbar';
 import Footer from './Footer';
-import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
+import { Navigate, useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt,FaLongArrowAltLeft } from "react-icons/fa";
 import {  } from "react-icons/fa";
@@ -15,7 +15,7 @@ const MusicDetils = () => {
     
       const {img,   category, top_album,top_artist, monthly_streams, description,event_title,event_date,contact,top_song, event_cost  } = findData || {}
       const backNavigate = () =>{
-        navigate(-1)
+         navigate('/')
       }
       const ticketToast = () =>{
         toast.success('Successfully Ticket Buy Done!')

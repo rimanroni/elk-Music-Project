@@ -21,12 +21,18 @@ const Navbar = () => {
                 mt-4 md:mt-1
                 md:mx-1' />
              </div>
-             <div className='text-white md:font-bold uppercase md:mt-0 mt-12   ml-4 md:ml-0 space-x-3'>
+             <div className='text-white md:font-bold uppercase md:mt-0 mt-12 lg:flex lg:items-center  ml-4 md:ml-0 space-x-3'>
+               
                 <NavLink className='hover:text-green-500' to={'/'}>Home</NavLink>
                 <NavLink className='hover:text-green-500' to={'/SCHEDULE'}>SCHEDULE</NavLink>
                 <NavLink className='hover:text-green-500' to={'/about'}>About us</NavLink>
                 <NavLink className='hover:text-green-500' to={'/blog'}>BLOG</NavLink>
                 <NavLink  className='hover:text-green-500' to={'/event'}>  content</NavLink>
+                <div className=' flex justify-center py-4 lg:py-0 '>
+               {user&& <div className='inline'>
+                       <img src={user.photoURL?user.photoURL:'/user.png'} alt="" className='lg:w-[40px] rounded-full w-[50px]' />
+                  </div>}
+               </div>
                <div className='md:inline flex justify-center  md:mt-0 mt-4 '>
               {user?<button onClick={handleLogOut} className='bg-green-500 text-center  w-[100px] block md:inline md:px-4 py-2 rounded'>log out</button> :  <NavLink to={'/login'} className='bg-green-500 text-center  w-[100px] block md:inline md:px-4 py-2 rounded'>Log In</NavLink>}
                </div>

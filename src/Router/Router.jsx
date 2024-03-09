@@ -2,8 +2,7 @@
 import Root from "../pages/Root/Root";
 import ErrorPages from "../pages/ErrorPages/ErrorPages";
 import Home from "../pages/Home/Home";
-import Navbar from "../pages/Navbar/Navbar";
-import Sedule from "../components/Sedule";
+ import Sedule from "../components/Sedule";
 import Content from "../components/Content";
 import Login from "../Auth/Login";
 import Register from "../Auth/Register";
@@ -12,6 +11,7 @@ import About from "../components/About";
 import MusicDetils from "../components/MusicDetils";
 import PrivetBolog from "../All PrivetRouter/PrivetBolog";
 import PrivetContent from "../All PrivetRouter/PrivetContent";
+import PrivetMusicCard from "../All PrivetRouter/PrivetMusicCard";
  
 const router = createBrowserRouter([
   {
@@ -55,8 +55,10 @@ const router = createBrowserRouter([
    }, 
    {
     path:'/home/:id',
-    element:<MusicDetils/>, 
-    loader: () => fetch('/MusicFakeData.json')
+    element:<PrivetMusicCard>
+        <MusicDetils/>
+    </PrivetMusicCard>, 
+        loader: () => fetch('/MusicFakeData.json')
    }
 ]);
 
