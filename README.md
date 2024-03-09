@@ -1,3 +1,10 @@
+ -------------------------------------------------
+ github Link : https://github.com/programming-hero-web-course-4/b8a9-event-management-rimanroni
+
+ Project Live Link : https://65ec9dd19ed3fbc9695c84f8--earnest-sherbet-b8dcb4.netlify.app
+ 
+ 
+--------------------------------------
  1.let greeting
 greetign = {};
 console.log(greetign);
