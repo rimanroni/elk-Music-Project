@@ -1,12 +1,20 @@
 import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { MyContaxt } from '../../Contaxt/Contaxt';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Navbar = () => {
-   const {user} = useContext(MyContaxt)
-    
+   const {user, logOut } = useContext(MyContaxt)
+   const handleLogOut = () =>{
+      logOut()
+      .then(result=>{
+       })
+      .catch(error=>{
+       })
+   }
     return (
         <div className='px-12 ' id='banner'>
+         <Toaster/>
            <nav className='md:flex items-center justify-between py-4  '>
              <div>
                 <img src="/logo.png" alt="" className='mx-auto 
@@ -20,7 +28,7 @@ const Navbar = () => {
                 <NavLink className='hover:text-green-500' to={'/blog'}>BLOG</NavLink>
                 <NavLink  className='hover:text-green-500' to={'/event'}>  content</NavLink>
                <div className='md:inline flex justify-center  md:mt-0 mt-4 '>
-              {user?<button className='bg-green-500 text-center  w-[100px] block md:inline md:px-4 py-2 rounded'>log out</button> :  <NavLink to={'/login'} className='bg-green-500 text-center  w-[100px] block md:inline md:px-4 py-2 rounded'>Log In</NavLink>}
+              {user?<button onClick={handleLogOut} className='bg-green-500 text-center  w-[100px] block md:inline md:px-4 py-2 rounded'>log out</button> :  <NavLink to={'/login'} className='bg-green-500 text-center  w-[100px] block md:inline md:px-4 py-2 rounded'>Log In</NavLink>}
                </div>
              </div>
            </nav>

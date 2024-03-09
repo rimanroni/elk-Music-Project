@@ -9,6 +9,9 @@ import Login from "../Auth/Login";
 import Register from "../Auth/Register";
 import Bologs from "../components/Bologs";
 import About from "../components/About";
+import MusicDetils from "../components/MusicDetils";
+import PrivetBolog from "../All PrivetRouter/PrivetBolog";
+import PrivetContent from "../All PrivetRouter/PrivetContent";
  
 const router = createBrowserRouter([
   {
@@ -28,7 +31,9 @@ const router = createBrowserRouter([
    },
    {
     path:'/event',
-    element:<Content/>
+    element:<PrivetContent>
+        <Content/>
+    </PrivetContent>
    }, 
    {
     path:'/login',
@@ -40,11 +45,18 @@ const router = createBrowserRouter([
    },
    {
     path:"/blog",
-    element:<Bologs/>
+    element:<PrivetBolog>
+        <Bologs/>
+    </PrivetBolog>
    },
    {
     path:"/about",
     element:<About/>
+   }, 
+   {
+    path:'/home/:id',
+    element:<MusicDetils/>, 
+    loader: () => fetch('/MusicFakeData.json')
    }
 ]);
 

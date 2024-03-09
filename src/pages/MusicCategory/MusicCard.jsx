@@ -1,7 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const MusicCard = ({ data }) => {
     const { img, id, category, top_artist, event_cost } = data;
+    
     return (
         <div className='mx-auto' data-aos="fade-down">
             <div className="  relative flex   flex-col justify-center overflow-hidden ">
@@ -14,11 +16,13 @@ const MusicCard = ({ data }) => {
                         <h1 className="font-serif text-2xl font-bold text-white shadow-xl">{category}</h1>
                         <h1 className="text-sm font-light text-gray-200 shadow-xl">{top_artist}</h1>
                         <h1 className="    shadow-xl text-rose-400 font-bold">Ticket Price {event_cost}</h1>
-                        <button class="relative  px-3 py-1 overflow-hidden border  border-white text-white shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-yellow-400  
+                      <NavLink to={`/home/${id}`}>
+                      <button class="relative  px-3 py-1 overflow-hidden border  border-white text-white shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-yellow-400  
                         hover:border-slate-600
                         before:duration-300 before:ease-out hover:text-white   hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
                             <span class="relative z-10">Show More</span>
                         </button>
+                      </NavLink>
                     </div>
                 </div>
             </div>
